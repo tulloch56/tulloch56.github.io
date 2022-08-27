@@ -38,9 +38,21 @@
 #nav .menus_items {
     position: absolute;
     width: fit-content;
-    left: 80%;
-    transform: translateX(-80%);
+    left: 15%;
+    transform: translateX(-15%);
 }
+
+@media screen and (min-width: 768px) {
+    div#menus {
+        width: 61%;
+        text-align: right;
+    }
+
+    #blog_name {
+        display: none;
+    }
+}
+
 
 #nav a {
     color: #fff;
