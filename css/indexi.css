@@ -35,17 +35,11 @@
     text-shadow: none;
 }
 
-#nav .menus_items {
-    position: absolute;
-    width: fit-content;
-    left: 15%;
-    transform: translateX(-15%);
-}
 
 @media screen and (min-width: 768px) {
     div#menus {
-        width: 61%;
-        text-align: right;
+        width: 70%;
+        text-align: center;
     }
 
     #blog_name {
