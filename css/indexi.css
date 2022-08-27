@@ -1,0 +1,77 @@
+#page-header:not(.not-top-img):before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    content: '';
+}
+
+#recent-posts>.recent-post-item>.recent-post-info>.content {
+    -webkit-line-clamp: 3;
+}
+
+#nav.show {
+    background: #282a2c99;
+    line-height: 42px;
+}
+
+#nav {
+    height: 42px;
+}
+
+#page-header.nav-fixed #nav {
+    top: -42px;
+    background: #282a2c99;
+}
+
+#page-header #scroll-down .scroll-down-effects {
+    font-size: 0;
+}
+
+#page-header.nav-fixed #nav a,
+#page-header.nav-fixed #nav #site-name,
+#page-header.nav-fixed #nav #toggle-menu {
+    color: #fff;
+    text-shadow: none;
+}
+
+#nav .menus_items {
+    position: absolute;
+    width: fit-content;
+    left: 80%;
+    transform: translateX(-80%);
+}
+
+#nav a {
+    color: #fff;
+}
+
+#nav .site-page {
+    font-size: 15px;
+    padding: 8px 7px;
+}
+
+#page-header.full_page {
+    background-attachment: inherit;
+    background-position: top;
+}
+
+#recent-posts>.recent-post-item {
+    height: 16em;
+}
+
+#footer {
+    background: #23282d;
+}
+
+.layout {
+    padding: 20px 15px;
+}
+
+img.post_bg {
+    padding: 20px;
+}
+
+hr:before {
+    font-size: 0;
+}
