@@ -263,6 +263,11 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/posts/jgyy/" class="leancloud_visitors" data-flag-title="极光影视v2.4.1-去广告版">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -322,6 +327,11 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/posts/ying-shi/" class="leancloud_visitors" data-flag-title="极光影视 安卓&电视TV版-无广告免费看V1P影视">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -348,17 +358,17 @@
     <div class="hidden">
         <!-- 加载文章阅读对应的统计功能，评论自带的那种 -->
         
-            <div id="w-comments" class="post-comments lazy-load bg-image"></div>
+            <div id="w-comments" class="post-comments bg-image"></div>
 <script>
     var load_comm = () => {
         const init = () => {
             new Waline(Object.assign({
                 el: '#w-comments',
                 path: '/tags/%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90/index.html'
-            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","pageview":true,"placeholder":"🐧留言时请填写昵称和邮箱，收到回复将会发送邮件给您。"}')));
+            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","visitor":true,"placeholder":"🐧留言时请填写昵称和邮箱，收到回复将会发送邮件给您。"}')));
         }
         if (typeof Waline === 'undefined') {
-            const src = '/vendors/@waline/client@2.7.1/dist/Waline.min.js';
+            const src = '/vendors/@waline/client@1.6.0/dist/Waline.min.js';
             $.getScript(src, init);
         } else {
             init();
