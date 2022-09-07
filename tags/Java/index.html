@@ -263,11 +263,6 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/posts/java-servlet/" class="leancloud_visitors" data-flag-title="Servlet生命周期详解">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -325,11 +320,6 @@
                         </a>
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
-                            
-                                <a id="/posts/mysql-root/" class="leancloud_visitors" data-flag-title="MySQL8.0修改root密码">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
                             
                         
                         
@@ -389,11 +379,6 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/posts/java-thread/" class="leancloud_visitors" data-flag-title="Java知识点复习（七）多线程">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -451,11 +436,6 @@
                         </a>
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
-                            
-                                <a id="/posts/java-array/" class="leancloud_visitors" data-flag-title="Java知识点复习（六）数组">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
                             
                         
                         
@@ -515,11 +495,6 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/posts/java-loop/" class="leancloud_visitors" data-flag-title="Java知识点复习（五）流程控制之循环语句">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -577,11 +552,6 @@
                         </a>
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
-                            
-                                <a id="/posts/java-select/" class="leancloud_visitors" data-flag-title="Java知识点复习（四）流程控制之选择语句">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
                             
                         
                         
@@ -641,11 +611,6 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/posts/java-operator/" class="leancloud_visitors" data-flag-title="Java知识点复习（三）运算符">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -703,11 +668,6 @@
                         </a>
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
-                            
-                                <a id="/posts/java-data/" class="leancloud_visitors" data-flag-title="Java知识点复习（二）基本数据类型">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
                             
                         
                         
@@ -767,11 +727,6 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/posts/java/" class="leancloud_visitors" data-flag-title="Java语法基础知识点（一）">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -798,17 +753,17 @@
     <div class="hidden">
         <!-- 加载文章阅读对应的统计功能，评论自带的那种 -->
         
-            <div id="w-comments" class="post-comments bg-image"></div>
+            <div id="w-comments" class="post-comments lazy-load bg-image"></div>
 <script>
     var load_comm = () => {
         const init = () => {
             new Waline(Object.assign({
                 el: '#w-comments',
                 path: '/tags/Java/index.html'
-            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","visitor":true,"placeholder":"🐧留言时请填写昵称和邮箱，收到回复将会发送邮件给您。"}')));
+            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","pageview":true,"placeholder":"🐧留言时请填写昵称和邮箱，收到回复将会发送邮件给您。"}')));
         }
         if (typeof Waline === 'undefined') {
-            const src = '/vendors/@waline/client@1.6.0/dist/Waline.min.js';
+            const src = '/vendors/@waline/client@2.7.1/dist/Waline.min.js';
             $.getScript(src, init);
         } else {
             init();
