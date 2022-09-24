@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.xhgzyw.cn/you-xi/</loc>
-    <lastmod>2022-09-17</lastmod>
+    <loc>http://www.xhgzyw.cn/qmd/</loc>
+    <lastmod>2022-09-24</lastmod>
   </url>
   <url>
     <loc>http://www.xhgzyw.cn/zi-yuan/</loc>
-    <lastmod>2022-09-17</lastmod>
+    <lastmod>2022-09-24</lastmod>
+  </url>
+  <url>
+    <loc>http://www.xhgzyw.cn/you-xi/</loc>
+    <lastmod>2022-09-24</lastmod>
   </url>
   <url>
     <loc>http://www.xhgzyw.cn/liunx/</loc>
@@ -35,10 +39,6 @@
   <url>
     <loc>http://www.xhgzyw.cn/mysql-root/</loc>
     <lastmod>2022-08-02</lastmod>
-  </url>
-  <url>
-    <loc>http://www.xhgzyw.cn/qmd/</loc>
-    <lastmod>2022-07-31</lastmod>
   </url>
   <url>
     <loc>http://www.xhgzyw.cn/download/</loc>
