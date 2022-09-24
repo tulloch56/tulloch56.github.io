@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.xhgzyw.cn/qmd/</loc>
+    <loc>http://www.xhgzyw.cn/posts/download/</loc>
     <lastmod>2022-09-24</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/zi-yuan/</loc>
+    <loc>http://www.xhgzyw.cn/posts/zi-yuan/</loc>
     <lastmod>2022-09-24</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/you-xi/</loc>
+    <loc>http://www.xhgzyw.cn/posts/you-xi/</loc>
     <lastmod>2022-09-24</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/liunx/</loc>
+    <loc>http://www.xhgzyw.cn/posts/qmd/</loc>
+    <lastmod>2022-09-24</lastmod>
+  </url>
+  <url>
+    <loc>http://www.xhgzyw.cn/posts/liunx/</loc>
     <lastmod>2022-09-16</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/jiao-cheng/</loc>
+    <loc>http://www.xhgzyw.cn/posts/jiao-cheng/</loc>
     <lastmod>2022-08-30</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java-servlet/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-servlet/</loc>
     <lastmod>2022-08-24</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/idm/</loc>
+    <loc>http://www.xhgzyw.cn/posts/idm/</loc>
     <lastmod>2022-08-23</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/chat/</loc>
+    <loc>http://www.xhgzyw.cn/posts/chat/</loc>
     <lastmod>2022-08-23</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/javascript/</loc>
+    <loc>http://www.xhgzyw.cn/posts/javascript/</loc>
     <lastmod>2022-08-17</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/mysql-root/</loc>
+    <loc>http://www.xhgzyw.cn/posts/mysql-root/</loc>
     <lastmod>2022-08-02</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/download/</loc>
-    <lastmod>2022-07-27</lastmod>
-  </url>
-  <url>
-    <loc>http://www.xhgzyw.cn/java-array/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-array/</loc>
     <lastmod>2022-06-09</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/shuo-ming/</loc>
+    <loc>http://www.xhgzyw.cn/posts/shuo-ming/</loc>
     <lastmod>2022-05-22</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java-thread/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-thread/</loc>
     <lastmod>2022-05-22</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/jgyy/</loc>
+    <loc>http://www.xhgzyw.cn/posts/jgyy/</loc>
     <lastmod>2022-05-22</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/mo-ni-qi/</loc>
+    <loc>http://www.xhgzyw.cn/posts/mo-ni-qi/</loc>
     <lastmod>2022-05-20</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/ying-shi/</loc>
+    <loc>http://www.xhgzyw.cn/posts/ying-shi/</loc>
     <lastmod>2022-04-23</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java-data/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-data/</loc>
     <lastmod>2022-04-17</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java-loop/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-loop/</loc>
     <lastmod>2022-04-15</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java-select/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-select/</loc>
     <lastmod>2022-04-15</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java/</loc>
     <lastmod>2022-04-15</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/java-operator/</loc>
+    <loc>http://www.xhgzyw.cn/posts/java-operator/</loc>
     <lastmod>2022-04-15</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/ae/</loc>
+    <loc>http://www.xhgzyw.cn/posts/ae/</loc>
     <lastmod>2022-01-26</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/ai/</loc>
+    <loc>http://www.xhgzyw.cn/posts/ai/</loc>
     <lastmod>2022-01-26</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/office/</loc>
+    <loc>http://www.xhgzyw.cn/posts/office/</loc>
     <lastmod>2022-01-26</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/pr/</loc>
+    <loc>http://www.xhgzyw.cn/posts/pr/</loc>
     <lastmod>2022-01-26</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/ps/</loc>
+    <loc>http://www.xhgzyw.cn/posts/ps/</loc>
     <lastmod>2022-01-26</lastmod>
   </url>
 </urlset> 
