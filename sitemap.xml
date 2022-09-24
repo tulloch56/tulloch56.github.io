@@ -356,13 +356,6 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
-    <lastmod>2022-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xhgzyw.cn/tags/Ai/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -370,7 +363,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/Java/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -384,7 +384,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/Java/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -426,35 +433,7 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/pr/</loc>
-    <lastmod>2022-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/tags/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xhgzyw.cn/tags/Office%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2022-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
-    <lastmod>2022-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -469,6 +448,27 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/pr/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
