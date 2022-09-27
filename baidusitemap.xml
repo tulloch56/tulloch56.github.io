@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.xhgzyw.cn/you-xi/</loc>
-    <lastmod>2022-09-24</lastmod>
+    <loc>http://www.xhgzyw.cn/shuo-ming/</loc>
+    <lastmod>2022-09-27</lastmod>
   </url>
   <url>
-    <loc>http://www.xhgzyw.cn/download/</loc>
-    <lastmod>2022-09-24</lastmod>
+    <loc>http://www.xhgzyw.cn/you-xi/</loc>
+    <lastmod>2022-09-27</lastmod>
   </url>
   <url>
     <loc>http://www.xhgzyw.cn/zi-yuan/</loc>
-    <lastmod>2022-09-24</lastmod>
+    <lastmod>2022-09-27</lastmod>
+  </url>
+  <url>
+    <loc>http://www.xhgzyw.cn/download/</loc>
+    <lastmod>2022-09-27</lastmod>
   </url>
   <url>
     <loc>http://www.xhgzyw.cn/qmd/</loc>
@@ -47,10 +51,6 @@
   <url>
     <loc>http://www.xhgzyw.cn/java-array/</loc>
     <lastmod>2022-06-09</lastmod>
-  </url>
-  <url>
-    <loc>http://www.xhgzyw.cn/shuo-ming/</loc>
-    <lastmod>2022-05-22</lastmod>
   </url>
   <url>
     <loc>http://www.xhgzyw.cn/java-thread/</loc>
