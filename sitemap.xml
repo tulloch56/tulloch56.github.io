@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.xhgzyw.cn/chat/</loc>
+    <loc>http://www.xhgzyw.cn/zi-yuan/</loc>
     
     <lastmod>2022-10-13</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/zi-yuan/</loc>
+    <loc>http://www.xhgzyw.cn/chat/</loc>
     
     <lastmod>2022-10-13</lastmod>
     
@@ -365,14 +365,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/Ai/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
+    <loc>http://www.xhgzyw.cn/tags/Ai/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -456,14 +456,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
+    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -477,14 +477,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
