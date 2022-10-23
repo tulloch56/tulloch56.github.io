@@ -379,13 +379,6 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -394,6 +387,13 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/tags/Java/</loc>
+    <lastmod>2022-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -435,7 +435,7 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
+    <loc>http://www.xhgzyw.cn/tags/Office%E5%8A%9E%E5%85%AC/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -456,14 +456,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/Office%E5%8A%9E%E5%85%AC/</loc>
+    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -491,14 +491,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E5%A4%A9%E7%BF%BC%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AF%B4%E6%98%8E/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AF%B4%E6%98%8E/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E5%A4%A9%E7%BF%BC%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2022-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
