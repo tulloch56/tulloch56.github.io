@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xhgzyw.cn/friends/index.html</loc>
+    
+    <lastmod>2022-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xhgzyw.cn/you-xi/</loc>
     
     <lastmod>2022-11-01</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/chat/</loc>
-    
-    <lastmod>2022-10-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/friends/index.html</loc>
     
     <lastmod>2022-10-13</lastmod>
     
@@ -456,14 +456,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
+    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
     <lastmod>2022-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/ps/</loc>
+    <loc>http://www.xhgzyw.cn/tags/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
