@@ -335,14 +335,7 @@
 
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/JavaScript/</loc>
-    <lastmod>2022-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/tags/AE/</loc>
+    <loc>http://www.xhgzyw.cn/tags/Ai/</loc>
     <lastmod>2022-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -356,7 +349,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/Ai/</loc>
+    <loc>http://www.xhgzyw.cn/tags/JavaScript/</loc>
+    <lastmod>2022-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/AE/</loc>
     <lastmod>2022-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -391,6 +391,13 @@
   </url>
   
   <url>
+    <loc>http://www.xhgzyw.cn/tags/Linux/</loc>
+    <lastmod>2022-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xhgzyw.cn/tags/%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-12-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -413,13 +420,6 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/tags/MySQL/</loc>
-    <lastmod>2022-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/tags/Linux/</loc>
     <lastmod>2022-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -491,14 +491,14 @@
 
   
   <url>
-    <loc>http://www.xhgzyw.cn/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</loc>
+    <loc>http://www.xhgzyw.cn/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>http://www.xhgzyw.cn/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
