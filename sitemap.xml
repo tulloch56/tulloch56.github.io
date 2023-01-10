@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xhgzyw.cn/donate/index.html</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xhgzyw.cn/mo-ni-qi/</loc>
     
     <lastmod>2023-01-10</lastmod>
@@ -23,15 +32,6 @@
     <loc>http://www.xhgzyw.cn/you-xi/</loc>
     
     <lastmod>2023-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/donate/index.html</loc>
-    
-    <lastmod>2022-12-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -335,13 +335,6 @@
 
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/JavaScript/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xhgzyw.cn/tags/AE/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -350,6 +343,13 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/tags/Adobe%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -370,14 +370,7 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</loc>
+    <loc>http://www.xhgzyw.cn/tags/JavaScript/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -385,6 +378,13 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/tags/Java/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/tags/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -419,14 +419,14 @@
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/Office%E5%8A%9E%E5%85%AC/</loc>
+    <loc>http://www.xhgzyw.cn/tags/MySQL/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.xhgzyw.cn/tags/MySQL/</loc>
+    <loc>http://www.xhgzyw.cn/tags/Office%E5%8A%9E%E5%85%AC/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -491,13 +491,6 @@
 
   
   <url>
-    <loc>http://www.xhgzyw.cn/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xhgzyw.cn/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -506,6 +499,13 @@
   
   <url>
     <loc>http://www.xhgzyw.cn/categories/%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xhgzyw.cn/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
