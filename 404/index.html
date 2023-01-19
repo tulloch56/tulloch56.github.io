@@ -271,8 +271,8 @@
     </div>
     
     
-        <div id="w-comments" class="post-comments lazy-load bg-image"></div>
-<link rel="stylesheet" href="/vendors/@waline/client@1.6.0/dist/waline.css" />
+        <div id="w-comments" class="post-comments bg-image"></div>
+<link rel="stylesheet" href="/vendors/@waline/client@2.14.1/dist/waline.css" />
 <script>
     var load_comm = () => {
         const init = () => {
@@ -280,10 +280,10 @@
                 el: '#w-comments',
                 path: '/404/index.html',
                 dark: 'html[data-theme="dark"]',
-            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","visitor":true,"placeholder":"📢留言时请填写邮箱，可在被回复时收到邮件提醒。","emoji":["https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo"]}')));
+            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","comment":true,"pageview":true,"placeholder":"📢留言时请填写邮箱，可在被回复时收到邮件提醒。","emoji":["https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo"]}')));
         }
         if (typeof Waline === 'undefined') {
-            const src = '/vendors/@waline/client@1.6.0/dist/waline.js';
+            const src = '/vendors/@waline/client@2.14.1/dist/waline.js';
             $.getScript(src, init);
         } else {
             init();

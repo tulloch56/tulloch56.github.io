@@ -283,6 +283,16 @@
                 </li>
                 
                     
+                        <li>
+                            <i class="fa fa-eye"></i>
+                            <span data-path="/mo-ni-qi/" class="waline-pageview-count"> </span> 次阅读
+                        </li>
+                    
+                    
+                        <li>
+                            <i class="fa fa-commenting-o"></i>
+                            <span data-path="/mo-ni-qi/" class="waline-comment-count"> </span> 条评论
+                        </li>
                     
                 
             </ul>
@@ -443,15 +453,15 @@
         <nav class="navigation post-navigation clearfix" role="navigation">
             
             <div class="nav-previous clearfix">
-                <a title=" 天翼云游戏资源" href="/zi-yuan/">&lt; 上一篇</a>
+                <a title=" 单机游戏资源分享" href="/you-xi/">&lt; 上一篇</a>
             </div>
             
             
         </nav>
     
     
-        <div id="w-comments" class="post-comments lazy-load bg-image"></div>
-<link rel="stylesheet" href="/vendors/@waline/client@1.6.0/dist/waline.css" />
+        <div id="w-comments" class="post-comments bg-image"></div>
+<link rel="stylesheet" href="/vendors/@waline/client@2.14.1/dist/waline.css" />
 <script>
     var load_comm = () => {
         const init = () => {
@@ -459,10 +469,10 @@
                 el: '#w-comments',
                 path: '/mo-ni-qi/',
                 dark: 'html[data-theme="dark"]',
-            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","visitor":true,"placeholder":"📢留言时请填写邮箱，可在被回复时收到邮件提醒。","emoji":["https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo"]}')));
+            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","comment":true,"pageview":true,"placeholder":"📢留言时请填写邮箱，可在被回复时收到邮件提醒。","emoji":["https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo"]}')));
         }
         if (typeof Waline === 'undefined') {
-            const src = '/vendors/@waline/client@1.6.0/dist/waline.js';
+            const src = '/vendors/@waline/client@2.14.1/dist/waline.js';
             $.getScript(src, init);
         } else {
             init();
@@ -559,13 +569,13 @@
         
           
           
-            <a class="list-group-item" href="/zi-yuan/"><i class="fa  fa-book"></i> 天翼云游戏资源</a>
+            <a class="list-group-item" href="/you-xi/"><i class="fa  fa-book"></i> 单机游戏资源分享</a>
             
           
         
           
           
-            <a class="list-group-item" href="/you-xi/"><i class="fa  fa-book"></i> 单机游戏资源分享</a>
+            <a class="list-group-item" href="/zi-yuan/"><i class="fa  fa-book"></i> 天翼云游戏资源</a>
             
           
         
