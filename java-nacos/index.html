@@ -20,7 +20,7 @@
   <meta name="description" content="Java微服务-Nacos 注册中心和配置中心详解">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Nacos 注册中心和配置中心">
-<meta property="og:url" content="http://www.xhgzyw.cn/java-nacos/index.html">
+<meta property="og:url" content="http://xhzyw.dpdns.org/java-nacos/index.html">
 <meta property="og:site_name" content="小鹤资源屋">
 <meta property="og:description" content="Java微服务-Nacos 注册中心和配置中心详解">
 <meta property="og:locale" content="zh_CN">
@@ -99,7 +99,7 @@
     
   </style>
   
-<meta name="generator" content="Hexo 6.2.0"></head>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 
     <body class="custom-background">
@@ -271,7 +271,7 @@
 
             <article itemscope itemtype="https://schema.org/Article">
     
-    <link itemprop="mainEntityOfPage" href="http://www.xhgzyw.cn/java-nacos/">
+    <link itemprop="mainEntityOfPage" href="http://xhzyw.dpdns.org/java-nacos/">
     <div class="kratos-hentry kratos-post-inner clearfix">
         <header class="kratos-entry-header">
             
@@ -482,7 +482,7 @@
 <ol start="2">
 <li>复制三份Nacos</li>
 </ol>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[root@localhost bin]<span class="comment"># cd /usr/local</span></span><br><span class="line">[root@localhost java]<span class="comment"># mkdir nacos_cluster</span></span><br><span class="line">[root@localhost java]<span class="comment"># cp -r nacos nacos_cluster/nacos_8848</span></span><br><span class="line">[root@localhost java]<span class="comment"># cp -r nacos nacos_cluster/nacos_8849</span></span><br><span class="line">[root@localhost java]<span class="comment"># cp -r nacos nacos_cluster/nacos_8850</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[root@localhost bin]# <span class="built_in">cd</span> /usr/local</span><br><span class="line">[root@localhost java]# <span class="built_in">mkdir</span> nacos_cluster</span><br><span class="line">[root@localhost java]# <span class="built_in">cp</span> -r nacos nacos_cluster/nacos_8848</span><br><span class="line">[root@localhost java]# <span class="built_in">cp</span> -r nacos nacos_cluster/nacos_8849</span><br><span class="line">[root@localhost java]# <span class="built_in">cp</span> -r nacos nacos_cluster/nacos_8850</span><br></pre></td></tr></table></figure>
 
 <ol start="3">
 <li>将 <code>conf/application.properties</code> 中的端口号分别改为：</li>
@@ -516,10 +516,10 @@
 <h4 id="5-3-2-配置nginx代理nacos"><a href="#5-3-2-配置nginx代理nacos" class="headerlink" title="5.3.2.配置nginx代理nacos"></a>5.3.2.配置nginx代理nacos</h4><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="section">upstream</span> nacosList &#123;</span><br><span class="line">    192.168.150.132:8848</span><br><span class="line">    192.168.150.132:8849</span><br><span class="line">    192.168.150.132:8850</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="section">server</span> &#123;</span><br><span class="line">  <span class="attribute">listen</span> <span class="number">80</span>;</span><br><span class="line">  <span class="attribute">server_name</span>  localhost;</span><br><span class="line">  <span class="section">location</span> / &#123;</span><br><span class="line">    <span class="attribute">proxy_pass</span> http://nacosList;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="5-4-测试"><a href="#5-4-测试" class="headerlink" title="5.4.测试"></a>5.4.测试</h3><p>1.启动nacos集群(把虚拟机内存调至3g)</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[root@localhost upload]<span class="comment"># cd /usr/local/nacos_cluster/nacos_8848/bin</span></span><br><span class="line">[root@localhost bin]<span class="comment"># ./startup.sh</span></span><br><span class="line">[root@localhost bin]<span class="comment"># cd /usr/local/nacos_cluster/nacos_8849/bin</span></span><br><span class="line">[root@localhost bin]<span class="comment"># ./startup.sh</span></span><br><span class="line">[root@localhost bin]<span class="comment"># cd /usr/local/nacos_cluster/nacos_8850/bin</span></span><br><span class="line">[root@localhost bin]<span class="comment"># ./startup.sh</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[root@localhost upload]# <span class="built_in">cd</span> /usr/local/nacos_cluster/nacos_8848/bin</span><br><span class="line">[root@localhost bin]# ./startup.sh</span><br><span class="line">[root@localhost bin]# <span class="built_in">cd</span> /usr/local/nacos_cluster/nacos_8849/bin</span><br><span class="line">[root@localhost bin]# ./startup.sh</span><br><span class="line">[root@localhost bin]# <span class="built_in">cd</span> /usr/local/nacos_cluster/nacos_8850/bin</span><br><span class="line">[root@localhost bin]# ./startup.sh</span><br></pre></td></tr></table></figure>
 
 <p>2.启动nginx</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[root@localhost nginx]<span class="comment"># cd /usr/local/nginx/sbin/</span></span><br><span class="line">[root@localhost sbin]<span class="comment"># ./nginx </span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">[root@localhost nginx]# <span class="built_in">cd</span> /usr/local/nginx/sbin/</span><br><span class="line">[root@localhost sbin]# ./nginx </span><br></pre></td></tr></table></figure>
 
 <p>3.将微服务注册到Nacos集群</p>
 <p><img src="https://img-blog.csdnimg.cn/a54bd5f46b494c0bae2c49d2098c085b.png#pic_center"></p>
@@ -595,7 +595,7 @@
     <script type="text/javascript">
         $(()=>{
             new QRCode("wechat-qr", {
-                text: "http://www.xhgzyw.cn/java-nacos/",
+                text: "http://xhzyw.dpdns.org/java-nacos/",
                 width: 150,
                 height: 150,
                 correctLevel : QRCode.CorrectLevel.H
@@ -607,7 +607,7 @@
             const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
             const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
             const twitterBase   = "https://twitter.com/intent/tweet?";
-            const hostUrl       = "http://www.xhgzyw.cn/java-nacos/";
+            const hostUrl       = "http://xhzyw.dpdns.org/java-nacos/";
             const title         = "「Nacos 注册中心和配置中心」";
             const excerpt       = `Java微服务-Nacos 注册中心和配置中心详解`;
             let _URL;
@@ -660,7 +660,7 @@
                 el: '#w-comments',
                 path: '/java-nacos/',
                 dark: 'html[data-theme="dark"]',
-            }, JSON.parse('{"serverURL":"https://xhege.xhgzyw.cn","comment":true,"pageview":true,"placeholder":"📢留言时请填写邮箱，可在被回复时收到邮件提醒。","emoji":["https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo"]}')));
+            }, JSON.parse('{"serverURL":"https://xhege.xhzyw.dpdns.org","comment":true,"pageview":true,"placeholder":"📢留言时请填写邮箱，可在被回复时收到邮件提醒。","emoji":["https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://gcore.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo"]}')));
         }
         if (typeof Waline === 'undefined') {
             const src = '/vendors/@waline/client@2.14.1/dist/waline.js';
