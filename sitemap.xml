@@ -344,21 +344,7 @@
 
   
   <url>
-    <loc>http://xhzyw.dpdns.org/tags/JavaScript/</loc>
-    <lastmod>2025-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xhzyw.dpdns.org/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
-    <lastmod>2025-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xhzyw.dpdns.org/tags/Ai/</loc>
+    <loc>http://xhzyw.dpdns.org/tags/AE/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -372,7 +358,7 @@
   </url>
   
   <url>
-    <loc>http://xhzyw.dpdns.org/tags/AE/</loc>
+    <loc>http://xhzyw.dpdns.org/tags/JavaScript/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -387,6 +373,20 @@
   
   <url>
     <loc>http://xhzyw.dpdns.org/tags/%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xhzyw.dpdns.org/tags/Ai/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xhzyw.dpdns.org/tags/%E6%B8%B8%E6%88%8F%E8%AE%A8%E8%AE%BA/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -477,13 +477,6 @@
   </url>
   
   <url>
-    <loc>http://xhzyw.dpdns.org/tags/%E5%A4%A9%E7%BF%BC%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2025-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xhzyw.dpdns.org/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -497,7 +490,21 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://xhzyw.dpdns.org/tags/%E5%A4%A9%E7%BF%BC%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://xhzyw.dpdns.org/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://xhzyw.dpdns.org/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</loc>
@@ -508,13 +515,6 @@
   
   <url>
     <loc>http://xhzyw.dpdns.org/categories/%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2025-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xhzyw.dpdns.org/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
