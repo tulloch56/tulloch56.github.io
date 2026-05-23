@@ -77,7 +77,7 @@
     
   </style>
   
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 8.1.2"></head>
 
 
     <body class="custom-background">
@@ -300,7 +300,7 @@
 <h2 id="1-2、数组的使用"><a href="#1-2、数组的使用" class="headerlink" title="1.2、数组的使用"></a>1.2、数组的使用</h2><h3 id="1-2-1、使用方式1—动态初始化"><a href="#1-2-1、使用方式1—动态初始化" class="headerlink" title="1.2.1、使用方式1—动态初始化"></a>1.2.1、使用方式1—动态初始化</h3><ul>
 <li><p>数组的定义：</p>
 <p>数组类型  数据名[ ] &#x3D; new 数据类型 [大小]</p>
-<p> int a [ ] &#x3D; new int [5];	  &#x2F;&#x2F;创建了一个数组，名字a ，存放5个int</p>
+<p> int a [ ] &#x3D; new int [5];      &#x2F;&#x2F;创建了一个数组，名字a ，存放5个int</p>
 </li>
 <li><p>数组的引用 (使用&#x2F;访问&#x2F;获取数组元素) ：</p>
 <p>数组名 [下标&#x2F;索引&#x2F;index]   </p>
@@ -317,18 +317,17 @@
 </li>
 <li><p>创建数组：</p>
 <p><strong>语法：</strong> <code> 数组名=new 数据类型[大小]；</code></p>
-<p>​			<code>a=new int[10];</code></p>
+<p>​            <code>a=new int[10];</code></p>
 </li>
 </ul>
-<p>	</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">例：</span><br><span class="line"><span class="type">double</span> scores[];    <span class="comment">//声明数组，这时scores是 null</span></span><br><span class="line">scores = <span class="keyword">new</span> <span class="title class_">double</span>[<span class="number">5</span>];	<span class="comment">//分配内存空间，可以存放数据</span></span><br></pre></td></tr></table></figure>
 
 
 
 <h3 id="1-2-3、使用方式3—静态初始化"><a href="#1-2-3、使用方式3—静态初始化" class="headerlink" title="1.2.3、使用方式3—静态初始化"></a>1.2.3、使用方式3—静态初始化</h3><ul>
 <li><p>初始化数组：</p>
-<p><strong>语法：</strong> <code>数据类型  数据名[] = &#123;元素值，元素值...&#125;</code></p>
-<p>例：int a[] &#x3D; {2,5,6,7,8,20,30,40}	如果知道数组有多少元素，具体值</p>
+<p><strong>语法：</strong> <code>数据类型  数据名[] = {元素值，元素值...}</code></p>
+<p>例：int a[] &#x3D; {2,5,6,7,8,20,30,40}    如果知道数组有多少元素，具体值</p>
 <p>上面的写法相当于：int a[] &#x3D; new int[9];</p>
 <p>a[0]&#x3D;2;  a[1]&#x3D;5;  a[2]&#x3D;6;  a[3]&#x3D;7;  以此类推……</p>
 </li>
@@ -357,7 +356,7 @@
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//部分注意事项理解</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ArrayDetail</span> &#123; </span><br><span class="line">    </span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">		<span class="comment">//1. 数组是多个相同类型数据的组合，实现对这些数据的统一管理</span></span><br><span class="line">		</span><br><span class="line">		<span class="comment">//int[] arr1 = &#123;1, 2, 3, 60,&quot;hello&quot;&#125;;//String -&gt;int</span></span><br><span class="line">		<span class="type">double</span>[] arr2 = &#123;<span class="number">1.1</span>, <span class="number">2.2</span>, <span class="number">3.3</span>, <span class="number">60.6</span>, <span class="number">100</span>&#125;;<span class="comment">//int -&gt;double</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">//2. 数组中的元素可以是任何数据类型，包括基本类型和引用类型，但是不能混用</span></span><br><span class="line">		String[] arr3 = &#123;<span class="string">&quot;北京&quot;</span>,<span class="string">&quot;jack&quot;</span>,<span class="string">&quot;milan&quot;</span>&#125;;</span><br><span class="line"></span><br><span class="line">		<span class="comment">//6. 数组下标必须在指定范围内使用，否则报：下标越界异常，比如 </span></span><br><span class="line">		<span class="comment">//int [] arr=new int[6]; 则有效下标为 0-5 </span></span><br><span class="line">		<span class="comment">//即数组的下标/索引 最小 0 最大 数组长度-1(5)</span></span><br><span class="line">		<span class="type">int</span> [] arr = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">6</span>];</span><br><span class="line">		<span class="comment">//System.out.println(arr[6]);//数组越界</span></span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="1-4、数组应用案例"><a href="#1-4、数组应用案例" class="headerlink" title="1.4、数组应用案例"></a>1.4、数组应用案例</h2><blockquote>
-<p>案例：创建一个char类型的26个元素的数组，分别 放置’A’-‘Z’。<br>           使用for循环访问所有元素并打印出来。<br>           提示：char类型数据运算 ‘A’+1 -&gt; ‘B’ </p>
+<p>案例：创建一个char类型的26个元素的数组，分别 放置’A’-‘Z’。<br>		   使用for循环访问所有元素并打印出来。<br>		   提示：char类型数据运算 ‘A’+1 -&gt; ‘B’ </p>
 </blockquote>
 <p>代码实现：</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ArrayEx01</span> &#123;</span><br><span class="line">    </span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        </span><br><span class="line">		<span class="comment">/*</span></span><br><span class="line"><span class="comment">		思路分析</span></span><br><span class="line"><span class="comment">		1. 定义一个 数组  char[] chars = new char[26]</span></span><br><span class="line"><span class="comment">		2. 因为 &#x27;A&#x27; + 1 = &#x27;B&#x27; 类推，所以老师使用for来赋值</span></span><br><span class="line"><span class="comment">		3. 使用for循环访问所有元素</span></span><br><span class="line"><span class="comment">		 */</span></span><br><span class="line">		</span><br><span class="line">		<span class="type">char</span>[] chars = <span class="keyword">new</span> <span class="title class_">char</span>[<span class="number">26</span>];</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;chars.length;i++)&#123; <span class="comment">//循环26次</span></span><br><span class="line">			chars[i]=(<span class="type">char</span>)(<span class="string">&#x27;A&#x27;</span>+i); <span class="comment">//&#x27;A&#x27; + i 是int , 需要强制转换</span></span><br><span class="line">		&#125;</span><br><span class="line">        <span class="comment">//循环输出</span></span><br><span class="line">		System.out.println(<span class="string">&quot;==chars数组==&quot;</span>);</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;chars.length;i++)&#123;</span><br><span class="line">			System.out.print(chars[i]+<span class="string">&quot; &quot;</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;		</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
